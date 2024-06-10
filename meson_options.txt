@@ -1,0 +1,7 @@
+option('tests', type: 'boolean', value: 'true', description: 'Enable unitary tests')
+
+option('landlock', type: 'feature', value: 'auto', description: 'Enable landlock sandboxing support')
+
+option('capsicum', type: 'feature', value: 'auto', description: 'Enable capsicum sandboxing support')
+
+option('pledge', type: 'feature', value: 'auto', description: 'Enable pledge sandboxing support')
